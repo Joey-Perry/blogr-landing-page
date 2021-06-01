@@ -86,14 +86,12 @@ header p {
 }
 
 main {
-    /* border: 2px solid blue; */
     font-family: 'Overpass', sans-serif;
 }
 
 .sub-title-image-section {
-    padding: 100px 0px 50px;
+    padding: 100px 0px 20px;
     text-align: center;
-    border: 1px solid black;
     font-size: 1.8em;
     color: hsl(237, 17%, 21%);
     display: flex;
@@ -111,9 +109,9 @@ main {
 }
 
 .sub-title-text-section {
-    padding: 100px 0px 50px;
+    padding: 30px 90px 20px;
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: hsl(237, 17%, 21%);
     display: flex;
     flex-direction: column;
@@ -121,7 +119,18 @@ main {
 }
 
 .sub-title-text-section h2 {
-    margin-bottom: 45px;
+    margin-bottom: 15px;
     font-weight: 600;
     font-size: 1.8em;
+}
+
+.sub-title-text-section p {
+    line-height: 1.8;
+    font-size: 1.15;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
 }
